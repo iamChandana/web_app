@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic/KWSP scheme_white</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-3.000000, -3.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g>
+                <rect id="Rectangle" x="3" y="18.8892187" width="17.9988047" height="2.11099219"></rect>
+                <rect id="Rectangle" x="3" y="7.60515234" width="17.9988047" height="2.11099219"></rect>
+                <polygon id="Path" points="11.9994023 3 3.4224375 6.55060547 20.5763672 6.55060547"></polygon>
+                <rect id="Rectangle" x="4.58273438" y="10.7714648" width="2.11907813" height="7.06278516"></rect>
+                <rect id="Rectangle" x="8.82089063" y="10.7714648" width="2.11907813" height="7.06278516"></rect>
+                <rect id="Rectangle" x="13.0590469" y="10.7714648" width="2.11907813" height="7.06278516"></rect>
+                <rect id="Rectangle" x="17.2968516" y="10.7714648" width="2.11907812" height="7.06278516"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

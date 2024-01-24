@@ -1,0 +1,242 @@
+/*
+ *
+ * ClientDetails constants
+ *
+ */
+
+export const DEFAULT_ACTION = 'app/ClientDetails/DEFAULT_ACTION';
+export const RESET = 'app/ClientDetails/RESET';
+export const PROCESSING = 'app/ClientDetails/PROCESSING';
+export const ERROR = 'app/ClientDetails/ERROR';
+export const ERROR_RESET = 'app/ClientDetails/ERROR_RESET';
+export const SUCCESS = 'app/ClientDetails/SUCCESS';
+export const SUCCESS_RESET = 'app/ClientDetails/SUCCESS_RESET';
+
+// account
+export const ACCOUNT_GET = 'app/ClientDetails/ACCOUNT_GET';
+export const ACCOUNT_GET_SUCCESS = 'app/ClientDetails/ACCOUNT_GET_SUCCESS';
+export const ACCOUNT_GET_FAIL = 'app/ClientDetails/ACCOUNT_GET_FAIL';
+export const CREATE_ACCOUNT = 'app/ClientDetails/CREATE_ACCOUNT';
+export const CREATE_CASH_ACCOUNT_FAILED = 'app/ClientDetails/CREATE_CASH_ACCOUNT_FAILED';
+export const CREATE_CASH_CLIENT_EMAIL_ERROR = 'app/ClientDetails/CREATE_CASH_CLIENT_EMAIL_ERROR';
+export const CREATE_ACCOUNT_SET_MODAL_SUCCESS = 'app/ClientDetails/CREATE_ACCOUNT_SET_MODAL_SUCCESS';
+export const CREATE_KWSP_ACCOUNT_SUCCESS = 'app/ClientDetails/CREATE_KWSP_ACCOUNT_SUCCESS';
+export const CREATE_KWSP_ACCOUNT = 'app/ClientDetails/CREATE_KWSP_ACCOUNT';
+export const SET_ACCOUNT_CREATION_FLOW = 'app/ClientDetails/SET_ACCOUNT_CREATION_FLOW';
+// bank
+export const ACCOUNT_BANK_GET = 'app/ClientDetails/ACCOUNT_BANK_GET';
+export const ACCOUNT_BANK_GET_SUCCESS = 'app/ClientDetails/ACCOUNT_BANK_GET_SUCCESS';
+export const ACCOUNT_BANK_GET_FAIL = 'app/ClientDetails/ACCOUNT_BANK_GET_FAIL';
+
+// customer
+export const CUSTOMER_GET = 'app/ClientDetails/CUSTOMER_GET';
+export const CUSTOMER_GET_SUCCESS = 'app/ClientDetails/CUSTOMER_GET_SUCCESS';
+export const CUSTOMER_GET_FAIL = 'app/ClientDetails/CUSTOMER_GET_FAIL';
+
+// customer portfolio
+export const CUSTOMER_PORTFOLIO_GET = 'app/ClientDetails/CUSTOMER_PORTFOLIO_GET';
+export const CUSTOMER_PORTFOLIO_GET_SUCCESS = 'app/ClientDetails/CUSTOMER_PORTFOLIO_GET_SUCCESS';
+export const CUSTOMER_PORTFOLIO_GET_FAIL = 'app/ClientDetails/CUSTOMER_PORTFOLIO_GET_FAIL';
+
+// customer details
+export const CUSTOMER_DETAILS_GET = 'app/ClientDetails/CUSTOMER_DETAILS_GET';
+export const CUSTOMER_DETAILS_GET_SUCCESS = 'app/ClientDetails/CUSTOMER_DETAILS_GET_SUCCESS';
+export const CUSTOMER_DETAILS_GET_FAIL = 'app/ClientDetails/CUSTOMER_DETAILS_GET_FAIL';
+export const STORE_EXISTING_CUSTOMER_DETAILS = 'app/ClientDetails/STORE_EXISTING_CUSTOMER_DETAILS';
+export const CLEAR_EXISTING_USER_DETAILS = 'app/OnBoarding/CLEAR_EXISTING_USER_DETAILS';
+
+// TOPUP
+export const TOPUP_REDEEM_REQUEST = 'app/ClientDetails/TOPUP_REDEEM_REQUEST';
+export const TOPUP_REDEEM_REQUEST_SUCCESS = 'app/ClientDetails/TOPUP_REDEEM_REQUEST_SUCCESS';
+export const TOPUP_REDEEM_REQUEST_FAIL = 'app/ClientDetails/TOPUP_REDEEM_REQUEST_FAIL';
+
+// RSP
+export const SETUP_RSP = 'app/ClientDetails/SETUP_RSP';
+export const INITIAL_RSP_RESPONSE = 'app/ClientDetails/INITIAL_RSP_RESPONSE';
+export const SETUP_RSP_SUCCESS = 'app/ClientDetails/SETUP_RSP_SUCCESS';
+export const SETUP_RSP_FAILURE = 'app/ClientDetails/SETUP_RSP_FAILURE';
+export const EDIT_RSP = 'app/ClientDetails/EDIT_RSP';
+export const EDIT_RSP_SUCCESS = 'app/ClientDetails/EDIT_RSP_SUCCESS';
+export const EDIT_RSP_FAILURE = 'app/ClientDetails/EDIT_RSP_FAILURE';
+export const INIT_RSP_OTP = 'app/ClientDetails/INIT_RSP_OTP';
+export const INIT_EDIT_RSP_OTP = 'app/ClientDetails/INIT_EDIT_RSP_OTP';
+export const INIT_EDIT_RSP_OTP_SUCCESS = 'app/ClientDetails/INIT_EDIT_RSP_OTP_SUCCESS';
+export const INIT_EDIT_RSP_OTP_FAILURE = 'app/ClientDetails/INIT_EDIT_RSP_OTP_FAILURE';
+export const INIT_RSP_OTP_SUCCESS = 'app/ClientDetails/INIT_RSP_OTP_SUCCESS';
+export const INIT_RSP_OTP_FAILURE = 'app/ClientDetails/INIT_RSP_OTP_FAILURE';
+export const INIT_TERMINATE_RSP_OTP = 'app/ClientDetails/INIT_TERMINATE_RSP_OTP';
+export const INIT_TERMINATE_RSP_OTP_SUCCESS = 'app/ClientDetails/INIT_TERMINATE_RSP_OTP_SUCCESS';
+export const INIT_TERMINATE_RSP_OTP_FAILURE = 'app/ClientDetails/INIT_TERMINATE_RSP_OTP_FAILURE';
+export const TERMINATE_RSP = 'app/ClientDetails/TERMINATE_RSP';
+export const TERMINATE_RSP_SUCCESS = 'app/ClientDetails/TERMINATE_RSP_SUCCESS';
+export const TERMINATE_RSP_FAILURE = 'app/ClienDetails/TERMINATE_RSP_FAILURE';
+export const CLEAR_RSP_OTP_DATA = 'app/ClientDetails/CLEAR_RSP_OTP_DATA';
+export const PROCESSING_SETUP_RSP = 'app/ClientDetails/PROCESSING_SETUP_RSP';
+export const CLEAR_INIT_RSP_OTP_ERR = 'app/ClientDetails/CLEAR_INIT_RSP_OTP_ERR';
+export const DISABLE_RSP_NOTIFICATION = 'app/ClientDetails/DISABLE_RSP_NOTIFICATION';
+
+// TRANSACTION
+export const TRANSACTION_GET = 'app/ClientDetails/TRANSACTION_GET';
+export const TRANSACTION_GET_SUCCESS = '/TRANSACTION_GET_SUCCESS';
+export const TRANSACTION_RESET = 'app/ClientDetails/TRANSACTION_RESET';
+export const STORE_TRANSACTION_REQUEST = 'app/ClientDetails/STORE_TRANSACTION_REQUEST';
+
+// payment
+// PAYMENT DOCS
+export const PAYMENT_DOCS_CREATE = 'app/ClientDetails/PAYMENT_DOCS_CREATE';
+export const PAYMENT_DOCS_CREATE_SUCCESS = 'app/ClientDetails/PAYMENT_DOCS_CREATE_SUCCESS';
+
+// add bank
+export const BANK_ADD = 'app/ClientDetails/BANK_ADD';
+export const BANK_ADD_SUCCESS = 'app/ClientDetails/BANK_ADD_SUCCESS';
+export const BANK_EDIT = 'app/ClientDetails/BANK_EDIT';
+export const BANK_EDIT_SUCCESS = 'app/ClientDetails/BANK_EDIT_SUCCESS';
+
+// update customer details
+export const CUSTOMER_DETAILS_UPDATE = 'app/ClientDetails/CUSTOMER_DETAILS_UPDATE';
+export const CUSTOMER_DETAILS_UPDATE_SUCCESS = 'app/ClientDetails/CUSTOMER_DETAILS_UPDATE_SUCCESS';
+
+export const SWITCH_FUND_SUCCESS = 'app/ClientDetails/SWITCH_FUND_SUCCESS';
+export const SWITCH_FUND_FAIL = 'app/ClientDetails/SWITCH_FUND_FAIL';
+export const RESET_SWITCH_FUND_SUCCESS = 'app/ClientDetails/RESET_SWITCH_FUND_SUCCESS';
+
+// add funds
+export const ADD_FUNDS = 'app/ClientDetails/ADD_FUNDS';
+export const IS_ONLINE_TXN_SUCCESS = 'app/ClientDetails/IS_ONLINE_TXN_SUCCESS';
+
+export const INIT_FUND_TRANSACTION_OTP = 'app/ClientDetails/INIT_FUND_TRANSACTION_OTP';
+export const INIT_FUND_TRANSACTION_OTP_SUCCESS = 'app/ClientDetails/INIT_FUND_TRANSACTION_OTP_SUCCESS';
+export const INIT_FUND_TRANSACTION_OTP_FAIL = 'app/ClientDetails/INIT_FUND_TRANSACTION_OTP_FAIL';
+export const OPEN_MODAL_FUND_TRANSACTION_OTP = 'app/ClientDetails/OPEN_MODAL_FUND_TRANSACTION_OTP';
+
+export const EXEC_AFTER_OTP_FUND_TRANSACTION_SUCCESS = 'app/ClientDetails/EXEC_AFTER_OTP_FUND_TRANSACTION_SUCCESS';
+export const EXEC_AFTER_OTP_FUND_TRANSACTION_FAIL = 'app/ClientDetails/EXEC_AFTER_OTP_FUND_TRANSACTION_FAIL';
+export const SAVE_TOKEN_OF_FUND_TRANSACTION_OTP_SUCCESS_FROM_EXEC_AFTER_OTP =
+  'app/ClientDetails/SAVE_TOKEN_OF_FUND_TRANSACTION_OTP_SUCCESS_FROM_EXEC_AFTER_OTP';
+
+export const SAVE_DATA_SWITCH_FUND = 'app/ClientDetails/SAVE_DATA_SWITCH_FUND';
+export const SHOW_MODAL_SWITCH_FUND = 'app/ClientDetails/SHOW_MODAL_SWITCH_FUND';
+
+export const ALL_TRANSACTION_OTP_SUCCESS = 'app/ClientDetails/ALL_TRANSACTION_OTP_SUCCESS';
+
+export const SAVE_TRANSACTION_DATA = 'app/ClientDetails/SAVE_TRANSACTION_DATA';
+export const CLEAR_TRANSACTION_DATA = 'app/ClientDetails/CLEAR_TRANSACTION_DATA';
+export const SUBMIT_TOKEN_AFTER_OTP_FAIL = 'app/ClientDetails/SUBMIT_TOKEN_AFTER_OTP_FAIL';
+
+export const CLEAR_OTP_ERROR = 'app/ClientDetails/CLEAR_OTP_ERROR';
+
+export const CLEAR_TOPUP_ERROR = 'app/ClientDetails/CLEAR_TOPUP_ERROR';
+
+export const RESET_ALLOCATE_FUND_STATUS = 'app/ClientDetails/RESET_ALLOCATE_FUND_STATUS';
+export const AMLA_CHECK_FAIL = 'app/ClientDetails/AMLA_CHECK_FAIL';
+
+export const CHECK_AMLA_SUBSCRIBE = 'app/ClientDetails/CHECK_AMLA_SUBSCRIBE';
+export const SHOW_PAYMENT_SELECTION = 'app/ClientDetails/SHOW_PAYMENT_SELECTION';
+export const SHOW_PAYMENT_SELECTION_SUBSCRIBE = 'app/ClientDetails/SHOW_PAYMENT_SELECTION_SUBSCRIBE';
+export const SHOW_TXN_OTP_WINDOW = 'app/ClientDetails/SHOW_TXN_OTP_WINDOW';
+
+export const RESET_OTP = 'app/ClientDetails/RESET_OTP';
+
+export const TRANSACTION_GET_FOR_DOWNLOAD = 'app/ClientDetails/TRANSACTION_GET_FOR_DOWNLOAD';
+export const TRANSACTION_GET_FOR_DOWNLOAD_SUCCESS = 'app/ClientDetails/TRANSACTION_GET_FOR_DOWNLOAD_SUCCESS';
+export const REMOVE_FUND_TRANSACTIONS_FOR_DOWNLOAD = 'app/ClientDetails/REMOVE_FUND_TRANSACTIONS_FOR_DOWNLOAD';
+
+export const RESET_CLIENT_PROFILE_DATA = 'app/ClientDetails/RESET_CLIENT_PROFILE_DATA';
+export const INVALID_CUSTOMER_ID = 'app/ClientDetails/INVALID_CUSTOMER_ID';
+export const CLEAR_PAYMENT_STATUS = 'app/ClientDetails/CLEAR_PAYMENT_STATUS';
+
+export const RESET_PREVIOUS_DONE_TXN_PAYMENT_TYPE = 'app/ClientDetails/RESET_PREVIOUS_DONE_TXN_PAYMENT_TYPE';
+
+export const UPDATE_CLIENT_EMAIL = 'app/ClientDetails/UPDATE_CLIENT_EMAIL';
+export const INIT_CLIENT_PROFILE_CHANGE_OTP = 'app/ClientDetails/INIT_CLIENT_PROFILE_CHANGE_OTP';
+export const INIT_CLIENT_PROFILE_CHANGE_OTP_SUCCESS = 'app/ClientDetails/INIT_CLIENT_PROFILE_CHANGE_OTP_SUCCESS';
+export const INIT_CLIENT_PROFILE_CHANGE_OTP_ERROR = 'app/ClientDetails/INIT_CLIENT_PROFILE_CHANGE_OTP_ERROR';
+export const CLEAR_CLIENT_PROFILE_UPDATE_OTP_DATA = 'app/ClientDetails/CLEAR_CLIENT_PROFILE_UPDATE_OTP_DATA';
+export const UPDATE_CLIENT_EMAIL_ERROR = 'app/ClientDetails/UPDATE_CLIENT_EMAIL_ERROR';
+export const UPDATE_CLIENT_EMAIL_SUCCESS = 'app/ClientDetails/UPDATE_CLIENT_EMAIL_SUCCESS';
+export const PROCESSING_UPDATE_CLIENT_PROFILE = 'app/ClientDetails/PROCESSING_UPDATE_CLIENT_PROFILE';
+export const PROCESSING_CREATE_ACCOUNT_CLIENT_PROFILE = 'app/ClientDetails/PROCESSING_CREATE_ACCOUNT_CLIENT_PROFILE';
+export const CREATE_ACCOUNT_SUCCESS = 'app/ClientDetails/CREATE_ACCOUNT_SUCCESS';
+export const RESEND_CONFIRMATION_EMAIL = 'app/ClientDetails/RESEND_CONFIRMATION_EMAIL';
+export const RESENT_CONFIRMATION_EMAIL_STATUS = 'app/ClientDetails/RESENT_CONFIRMATION_EMAIL_STATUS';
+export const CLEAR_STATE_OF_CONFIRMATION_EMAIL_RESENT = 'app/ClientDetails/CLEAR_STATE_OF_CONFIRMATION_EMAIL_RESENT';
+export const SET_ERROR_MESSAGE = 'app/ClientDetails/SET_ERROR_MESSAGE';
+export const CLEAR_NEW_EMAIL = 'app/ClientDetails/CLEAR_NEW_EMAIL';
+export const PROCESSING_TASK_CREATE_PAYMENT_REQUEST_WITH_DOC =
+  'app/ClientDetails/PROCESSING_TASK_CREATE_PAYMENT_REQUEST_WITH_DOC';
+export const CLEAR_TRANSACTION_REQUEST = 'app/ClientDetails/CLEAR_TRANSACTION_REQUEST';
+export const CLEAR_ACCOUNT_CREATION_SUCCESS_VALUE = 'app/ClientDetails/CLEAR_ACCOUNT_CREATION_SUCCESS_VALUE';
+
+export const SAVE_CLIENT_ACC_DETAIL = 'app/ClientDetails/SAVE_CLIENT_ACC_DETAIL';
+export const SAVE_SELECTED_ACCOUNT_DETAILS = 'app/ClientDetails/SAVE_SELECTED_ACCOUNT_DETAILS';
+export const WHOLESALE_DISCLAIMER_ACKNOWLEDGE = 'app/ClientDetails/WHOLESALE_DISCLAIMER_ACKNOWLEDGE';
+
+// risk profile
+export const RISK_SCORE_GET = 'app/OnBoarding/RISK_SCORE_GET';
+export const RISK_SCORE_GET_SUCCESS = 'app/OnBoarding/RISK_SCORE_GET_SUCCES';
+export const RISK_SCORE_GET_FAIL = 'app/OnBoarding/RISK_SCORE_GET_FAIL';
+
+export const RISK_QUESTIONS_ANSWERS_GET = 'app/OnBoarding/RISK_QUESTIONS_ANSWERS_GET';
+export const RISK_QUESTIONS_ANSWERS_GET_SUCCES = 'app/OnBoarding/RISK_QUESTIONS_ANSWERS_GET_SUCCESS';
+export const RISK_PROFILE_1_SAVE = 'app/OnBoarding/RISK_PROFILE_1_SAVE';
+export const RISK_PROFILE_2_SAVE = 'app/OnBoarding/RISK_PROFILE_2_SAVE';
+export const RISK_PROFILES_GET = 'app/OnBoarding/RISK_PROFILES_GET';
+export const RISK_PROFILES_GET_SUCCESS = 'app/OnBoarding/RISK_PROFILES_GET_SUCCESS';
+export const RISK_PROFILES_GET_FAIL = 'app/OnBoarding/RISK_PROFILES_GET_FAIL';
+export const RISK_PROFILE_RESULT_SAVE = 'app/OnBoarding/RISK_PROFILE_RESULT_SAVE';
+export const FUNDS_SAVE = 'app/OnBoarding/FUNDS_SAVE';
+export const INITIAL_INVESTMENT_SAVE = 'app/OnBoarding/INITIAL_INVESTMENT_SAVE';
+export const PERSONAL_DETAILS_SAVE = 'app/OnBoarding/PERSONAL_DETAILS_SAVE';
+export const FUNDS_DRAWER_SAVE = 'app/OnBoarding/FUNDS_DRAWER_SAVE';
+export const SET_RISK_PROFILE_TYPE = 'app/OnBoarding/SET_RISK_PROFILE_TYPE';
+
+// Retake risk assessment
+export const INIT_RETAKE_RISK_ASSESSMENT_OTP = 'app/ClientDetails/INIT_RETAKE_RISK_ASSESSMENT_OTP';
+export const INIT_RETAKE_RISK_ASSESSMENT_OTP_SUCCESS = 'app/ClientDetails/INIT_RETAKE_RISK_ASSESSMENT_OTP_SUCCESS';
+export const INIT_RETAKE_RISK_ASSESSMENT_OTP_FAILURE = 'app/ClientDetails/INIT_RETAKE_RISK_ASSESSMENT_OTP_FAILURE';
+export const CLEAR_RETAKE_RISK_ASSESSMENT_OTP_DATA = 'app/ClientDetails/CLEAR_RETAKE_RISK_ASSESSMENT_OTP_DATA';
+export const RETAKE_RISK_ASSESSMENT = 'app/ClientDetails/RETAKE_RISK_ASSESSMENT';
+export const RETAKE_RISK_ASSESSMENT_SUCCESS = 'app/ClientDetails/RETAKE_RISK_ASSESSMENT_SUCCESS';
+export const RETAKE_RISK_ASSESSMENT_ERROR = 'app/ClientDetails/RETAKE_RISK_ASSESSMENT_ERROR';
+export const PROCESSING_RETAKE_ASSESSMENT = 'app/ClientDetails/PROCESSING_RETAKE_ASSESSMENT';
+
+// Unsubscribe
+export const CALL_UNSUBSCRIBE = 'app/ClientDetails/CALL_UNSUBSCRIBE';
+export const CALL_UNSUBSCRIBE_SUCCESS = 'app/ClientDetails/CALL_UNSUBSCRIBE_SUCCESS';
+export const GET_GROUPED_FUNDS = 'app/ClientDetails/GET_GROUPED_FUNDS';
+export const SAVE_GROUPED_FUNDS = 'app/ClientDetails/SAVE_GROUP_FUNDS';
+export const CLEAR_GROUPED_FUNDS = 'app/ClientDetails/CLEAR_GROUPED_FUNDS';
+export const SAVE_SELECTED_FUND = 'app/ClientDetails/SAVE_SELECTED_FUND';
+
+export const EMAIL_OTP_REQUEST = 'app/ClientDetails/EMAIL_OTP_REQUEST';
+export const EMAIL_OTP_SUCCESS = 'app/ClientDetails/EMAIL_OTP_SUCCESS';
+export const EMAIL_OTP_FAILURE = 'app/ClientDetails/EMAIL_OTP_FAILURE';
+export const RESET_AMLA_ERROR_OBJECT = 'app/ClientDetails/RESET_AMLA_ERROR_OBJECT';
+export const RESET_EMAIL_OTP_STATE = 'app/ClientDetails/RESET_EMAIL_OTP_STATE';
+
+export const CANCEL_PENDING_TRX_REQUEST = 'app/ClientDetails/CANCEL_PENDING_TRX_REQUEST';
+export const CANCEL_PENDING_TRX_SUCCESS = 'app/ClientDetails/CANCEL_PENDING_TRX_SUCCESS';
+export const CANCEL_PENDING_TRX_FAILURE = 'app/ClientDetails/CANCEL_PENDING_TRX_FAILURE';
+export const RESET_CANCEL_PENDING_TRX_STATE = 'app/ClientDetails/RESET_CANCEL_PENDING_TRX_STATE';
+
+export const CANCEL_PENDING_RSP_REQUEST = 'app/ClientDetails/CANCEL_PENDING_RSP_REQUEST';
+export const CANCEL_PENDING_RSP_SUCCESS = 'app/ClientDetails/CANCEL_PENDING_RSP_SUCCESS';
+export const CANCEL_PENDING_RSP_FAILURE = 'app/ClientDetails/CANCEL_PENDING_RSP_FAILURE';
+
+export const SET_SELECTED_VERIFICATION_OPTION = 'app/ClientDetails/SET_SELECTED_VERIFICATION_OPTION';
+
+export const GET_DEFAULT_SALES_CHARGE_REQUEST = 'app/ClientDetails/GET_DEFAULT_SALES_CHARGE_REQUEST';
+export const GET_DEFAULT_SALES_CHARGE_SUCCESS = 'app/ClientDetails/GET_DEFAULT_SALES_CHARGE_SUCCESS';
+export const GET_DEFAULT_SALES_CHARGE_FAILURE = 'app/ClientDetails/GET_DEFAULT_SALES_CHARGE_FAILURE';
+
+export const VERIFY_CAMPAIGN_CODE_REQUEST = 'app/ClientDetails/VERIFY_CAMPAIGN_CODE_REQUEST';
+export const VERIFY_CAMPAIGN_CODE_SUCCESS = 'app/ClientDetails/VERIFY_CAMPAIGN_CODE_SUCCESS';
+export const VERIFY_CAMPAIGN_CODE_FAILURE = 'app/ClientDetails/VERIFY_CAMPAIGN_CODE_FAILURE';
+
+export const REMOVE_CAMPAIGN_CODE = 'app/ClientDetails/REMOVE_CAMPAIGN_CODE';
+export const GET_DOCUMENTS_URL = 'app/ClientDetails/GET_DOCUMENTS_URL';
+export const SAVE_DOCUMENTS_URL = 'app/ClientDetails/SAVE_DOCUMENTS_URL';
+
+export const GET_PENDING_TRANSACTIONS = 'app/ClientDetails/GET_PENDING_TRANSACTIONS';
+export const SAVE_PENDING_TRANSACTIONS = 'app/ClientDetails/SAVE_PENDING_TRANSACTIONS';
+export const CALL_CANCEL_PENDING_TRANSACTIONS = 'app/ClientDetails/CALL_CANCEL_PENDING_TRANSACTIONS';

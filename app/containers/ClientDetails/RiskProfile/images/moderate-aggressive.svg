@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="39px" viewBox="0 0 55 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>moderate-aggressive_48px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="-5.81557252%" x2="100%" y2="-5.81557266%" id="linearGradient-1">
+            <stop stop-color="#5EEC2C" offset="0%"></stop>
+            <stop stop-color="#F42931" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Risk-Meter-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-53.000000, -352.000000)">
+            <g id="moderate-aggressive_48px" transform="translate(56.000000, 355.000000)">
+                <path d="M46.9329052,32.5001 C47.9105793,29.8769165 48.4484,27.0391454 48.4484,24.0740255 C48.4484,10.7776138 37.7029818,0.0001 24.4484,0.0001 C11.1938182,0.0001 0.4484,10.7776138 0.4484,24.0740255 C0.4484,27.0391454 0.986220726,29.8769165 1.96389484,32.5001" id="Stroke-9" stroke="url(#linearGradient-1)" stroke-width="6" stroke-linecap="round"></path>
+                <path d="M25.6437,21.6079 L33.5117,13.8529 C33.8287,13.5279 34.3477,13.5209 34.6727,13.8369 C34.9627,14.1209 35.0027,14.5749 34.7657,14.9039 L28.4947,23.9999 C29.2347,25.5399 29.0607,27.4309 27.8967,28.8189 C26.3077,30.7119 23.4767,30.9519 21.5727,29.3539 C19.6687,27.7569 19.4137,24.9269 21.0017,23.0339 C22.1657,21.6459 23.9977,21.1469 25.6437,21.6079 M22.9557,27.7059 C23.9447,28.5349 25.4147,28.4109 26.2397,27.4279 C27.0637,26.4449 26.9307,24.9759 25.9427,24.1469 C24.9547,23.3169 23.4847,23.4409 22.6597,24.4239 C21.8347,25.4069 21.9677,26.8769 22.9557,27.7059" id="Fill-11" fill="#1D1D26"></path>
+            </g>
+        </g>
+    </g>
+</svg>

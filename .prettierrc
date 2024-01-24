@@ -1,0 +1,8 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "jsxBracketSameLine": true,
+  "printWidth": 130,
+  "arrowParens": "always",
+  "eslintIntegration": true
+}

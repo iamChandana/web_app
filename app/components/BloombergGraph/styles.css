@@ -1,0 +1,16 @@
+.BloombergGraph--XAxis .domain, .BloombergGraph--XAxis .tick line {
+  stroke: #535e63;
+}
+
+.BloombergGraph--YAxis .domain {
+  stroke: transparent;
+}
+
+.BloombergGraph--XAxis .tick text, .BloombergGraph--YAxis .tick text {
+  font-family: 'FSElliot-Pro';
+  fill: #535e63;
+}
+
+.grid-line {
+  stroke: #535e63;
+}

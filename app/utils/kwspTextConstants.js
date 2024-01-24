@@ -1,0 +1,1 @@
+export const kwspPaymentBoxString = "Please present the KWSP 9N form and the physical copy of the Client's ID at Principal branch counters within 3 business days.";

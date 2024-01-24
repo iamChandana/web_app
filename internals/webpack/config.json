@@ -1,0 +1,9 @@
+{
+  "API_ROOT_URL_DEV": "http://principal-my-dev.bambu.life",
+  "API_ROOT_URL_SIT": "http://13.67.109.147",
+  "API_ROOT_URL_UAT": "https://cpamuat.dev.bambu.life",
+  "API_ROOT_URL_UAT_TEST": "https://cpamuat.azurewebsites.net",
+  "API_ROOT_URL_UAT2_TEST": "https://cpamuat2.azurewebsites.net",
+  "API_ROOT_URL_PROD": "https://rckt.azurewebsites.net",
+  "API_ROOT_URL_BAMBUDEV": "http://principal-my-dev.bambu.life"
+}
